@@ -1,0 +1,66 @@
+
+.item{
+
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    display: inline-block;
+   
+}
+
+#drop-elem{
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    float: right;
+    
+}
+
+#drag-elem1{
+    background-color: yellow;
+}
+
+#drag-elem2{
+    background-color: magenta;
+}
+
+#drag-elem3{
+    background-color: black;
+}
+
+.upload-area{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+   
+.upload-area i{
+    font-size: 50px;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+    
+}
+
+
+.dragdropfile{
+
+    background-color: white;
+    border: 1px dashed black;
+    cursor: pointer;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 480px;
+    width: 350px;
+    padding: 5px;
+   
+}
+
